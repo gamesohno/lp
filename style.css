@@ -1,0 +1,295 @@
+body {
+    background-color: #2d3f52 !important;
+}
+
+.progress {
+    height: 3px;
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    z-index: 99999;
+}
+
+.preview-loading-background {
+    background-color: #2d3f52;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+}
+
+.preview-loading {
+    position: absolute;
+    height: 64px;
+    width: 64px;
+    margin-left: -32px;
+    margin-top: -32px;
+    left: 50%;
+    top: 50%;
+    background-image: url("../img/hour-glass.gif");
+}
+
+.bookmark {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 12rem;
+}
+
+.bookmark .navbar-toolbox .navbar-nav .nav-link {
+    padding-left: 1.35rem;
+    padding-right: 1.35rem;
+}
+
+.bookmark .thumbnails {
+    background-color: #1e2e3f;
+    position: absolute;
+    top: 3.34rem;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-top: 1px solid #0a1d32;
+    overflow-y: auto;
+}
+
+.bookmark .thumbnails .thumbnail-loading {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 98px;
+    height: 138px;
+    background-color: #2d3f52;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("../img/hour-glass.gif");
+}
+
+.bookmark .thumbnails .thumbnail-selection-ring {
+    border-radius: 2px;
+    padding: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 7rem;
+}
+
+.bookmark .thumbnails .thumbnail-selection-ring .thumbnail-preview {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.bookmark .thumbnails .thumbnail-selection-ring.thumbnail-selection-ring-selected,
+.bookmark .thumbnails .thumbnail-selection-ring:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0));
+    background-clip: padding-box;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.05) inset, 0 0 1px rgba(255, 255, 255, 0.1) inset, 0 0 1px rgba(0, 0, 0, 0.2);
+}
+
+.page-container {
+    display: none;
+}
+
+.page {
+    margin-top: 1rem;
+}
+
+.large-preview-container {
+    position: relative;
+    padding-left: 1rem;
+    min-height: 20rem;
+    padding-right: 1rem;
+}
+
+@media (min-width: 992px) {
+    .bookmark {
+        display: block;
+    }
+    .reader {
+        position: absolute;
+        bottom: 0;
+        left: 12rem;
+        top: 0;
+        right: 0;
+    }
+    .reader .large-preview-container {
+        position: absolute;
+        top: 5.93rem;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        overflow-y: auto;
+    }
+    .reader .page {
+        margin-top: 2rem;
+    }
+}
+
+.navbar {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@media (min-width: 544px) {
+    .navbar {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+.navbar-toolbox {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-toolbox .navbar-brand {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.navbar-toolbox .navbar-nav {
+    border-left: 1px solid #1f2934;
+}
+
+.navbar-toolbox .navbar-nav li {
+    border-right: 1px solid #1f2934;
+}
+
+.navbar-toolbox .navbar-nav .nav-link {
+    padding: .885rem;
+}
+
+.navbar-toolbox .navbar-nav .nav-item + .nav-item {
+    margin-left: 0;
+}
+
+.navbar-toolbox .navbar-nav .nav-item.active {
+    background-color: #1e2e40;
+}
+
+.navbar-toolbox .navbar-nav .landing-icon {
+    font-size: 1.2rem;
+}
+
+@media (min-width: 992px) {
+    .modal-dialog {
+        width: 800px;
+        max-width: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .dont-have-account {
+        margin-top: 1.9rem;
+    }
+}
+
+.tag-pill {
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+}
+
+.separator {
+    position: relative;
+    border-bottom: 3px double #ddd;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.separator .separator-text {
+    position: absolute;
+    top: 50%;
+    background-color: white;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    margin-top: -12px;
+    left: 50%;
+    text-align: center;
+}
+
+@media (min-width: 992px) {
+    .separator {
+        display: block;
+        position: absolute;
+        top: 20%;
+        left: 0;
+        bottom: 20%;
+        border-right: 3px double #ddd;
+        margin: auto;
+    }
+}
+
+.rolling {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-bottom: -5px;
+    background-image: url("../img/rolling.gif");
+}
+.pesan {
+	color: #d9534f;
+	font-weight: bold;
+}
+
+.login-loading {
+    display: none;
+}
+.login-message {
+	display: none;
+}
+
+.form-control-feedback {
+    margin-top: 0;
+}
+
+.form-control-feedback small {
+    padding-left: .5rem;
+    padding-right: .5rem;
+    display: block;
+}
+
+.login-message small.tagged {
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.modal-content {
+    position: relative;
+}
+.modal-vertical-alignment {
+    display: table;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+    /* This makes sure that we can still click outside of the modal to close it */
+}
+
+.modal-vertical-alignment .modal-vertical-align-center {
+    /* To center vertically */
+    display: table-cell;
+    vertical-align: middle;
+    pointer-events: none;
+}
+
+.modal-vertical-alignment .modal-content {
+    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+    width: inherit;
+    height: inherit;
+    /* To center horizontally */
+    margin: 0 auto;
+    pointer-events: all;
+}
+.modal-open .modal {
+    background-color: rgba(0,0,0,0.3);
+}

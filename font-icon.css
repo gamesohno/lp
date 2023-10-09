@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Landing';
+    src:    url("../font/font-icon.eot");
+    src:    url("../font/font-icon.eot") format('embedded-opentype'),
+        url("../font/font-icon.ttf") format('truetype'),
+        url("../font/font-icon.woff") format('woff'),
+        url("../font/font-icon.svg") format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.landing-icon {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'Landing' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.landing-icon-info-circle:before {
+  content: "\e900";
+}
+.landing-icon-hand-paper-o:before {
+  content: "\e901";
+}
+.landing-icon-hand-stop-o:before {
+  content: "\e901";
+}
+.landing-icon-zoom_out_map:before {
+  content: "\e912";
+}
+.landing-icon-zoom_out:before {
+  content: "\e913";
+}
+.landing-icon-zoom_in:before {
+  content: "\e914";
+}
+.landing-icon-info:before {
+  content: "\e902";
+}
+.landing-icon-share:before {
+  content: "\e903";
+}
+.landing-icon-last_page:before {
+  content: "\e904";
+}
+.landing-icon-first_page:before {
+  content: "\e905";
+}
+.landing-icon-cloud_download:before {
+  content: "\e906";
+}
+.landing-icon-print:before {
+  content: "\e907";
+}
+.landing-icon-keyboard_arrow_right:before {
+  content: "\e908";
+}
+.landing-icon-navigate_next:before {
+  content: "\e909";
+}
+.landing-icon-keyboard_arrow_left:before {
+  content: "\e90a";
+}
+.landing-icon-rotate_right:before {
+  content: "\e90b";
+}
+.landing-icon-rotate_left:before {
+  content: "\e90c";
+}
+.landing-icon-book:before {
+  content: "\e90d";
+}
+.landing-icon-book3:before {
+  content: "\e90e";
+}
+.landing-icon-binoculars:before {
+  content: "\e985";
+}
+.landing-icon-search:before {
+  content: "\e986";
+}
+.landing-icon-list:before {
+  content: "\e9ba";
+}
+.landing-icon-attachment:before {
+  content: "\e9cd";
+}
+.landing-icon-bookmark:before {
+  content: "\e9d2";
+}
+.landing-icon-bookmarks:before {
+  content: "\e9d3";
+}
+.landing-icon-download:before {
+  content: "\e90f";
+}
+.landing-icon-store:before {
+  content: "\e90f";
+}
+.landing-icon-save:before {
+  content: "\e90f";
+}
+.landing-icon-grid:before {
+  content: "\e910";
+}
+.landing-icon-icons:before {
+  content: "\e910";
+}
+.landing-icon-open-book:before {
+  content: "\e911";
+}
